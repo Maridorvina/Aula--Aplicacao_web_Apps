@@ -11,6 +11,15 @@ header {
 
 }
 
+h1, h2 {
+	color: darkred;
+	margin: 0 50 0 0;	
+	padding: 40px 0 0 0; 
+	text-align: center;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+
 li{
 	font-weight: bold;
 	color: darkred;
@@ -45,7 +54,8 @@ footer {
 	font-weight: bold;
 	height: 40px;
 	padding: 20px;
-	text-align: center;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .container {

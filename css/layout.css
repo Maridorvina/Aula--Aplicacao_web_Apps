@@ -6,10 +6,9 @@
 }
 
 header {
-	background-color: #CD5C5C;
+	background-color: darkred;
 	height: 100px;
 	padding: 40px;
-
 }
 
 h1, h2 {
@@ -17,13 +16,13 @@ h1, h2 {
 	margin: 0 50 0 0;	
 	padding: 40px 0 0 0; 
 	text-align: center;
-	text-shadow: 1px 1px 1px 1px #111111;
+	text-shadow: 1px 1px 1px #111111;
 }
 
 
 li{
 	font-weight: bold;
-	color: darkred;
+	color: crimson;
 	display: inline;
 	font-weight: bold;
 	list-style: none;
@@ -49,8 +48,8 @@ body {
 }
 
 footer {
-	background-color: #CD5C5C;
-	color: darkred;
+	background-color: darkred;
+	color: #CD5C5C;
 	clear: both;
 	font-weight: bold;
 	height: 40px;

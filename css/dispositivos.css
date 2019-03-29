@@ -5,9 +5,9 @@
 }
 
 header {
-	background-color: #CD5C5C;
+	background-color: darkred;
 	height: 100px;
-	padding: 40px;
+	padding: 5px;
 
 }
 
@@ -16,19 +16,7 @@ h1, h2 {
 	margin: 0 50 0 0;	
 	padding: 40px 0 0 0; 
 	text-align: center;
-	text-shadow: 1px 1px 1px #111111;
-}
-
-
-li{
-	font-weight: bold;
-	color: darkred;
-	display: inline;
-	font-weight: bold;
-	list-style: none;
-	padding-right: 40px;
-	text-transform: uppercase;
-	padding-top: 10px;
+	text-shadow: 1px 2px 1px #111111;
 }
 
 p {
@@ -38,24 +26,26 @@ p {
 }
 
 body {
-	background-color: #B0E0E6;
+    background-color: #B0E0E6;
+	min-height: 400px;
 }
 
 #div-principal {
-	background-size: 100%;
+    clear: both;
 	min-height: 400px;
-	padding: 100px 0 0 0; 
+	padding: 80px 0 0 0; 
 }
 
 footer {
-	background-color: #CD5C5C;
-	color: darkred;
+	background-color: darkred;
+	color: 	#E9967A;
 	clear: both;
 	font-weight: bold;
 	height: 40px;
 	padding: 20px;
     text-align: center;
-    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #111111;
+    text-transform: uppercase; /*-- Deixa a letras do menu em tamanho maíusculo*/
 }
 
 .container {
@@ -63,7 +53,35 @@ footer {
 	margin: 0 auto;
 }
 
-img {
-	height: 100px;
+#logo img {
 	border-radius: 20px;
+	float: left;
+    height: 100px;
 }
+
+#menu {
+    float: right;
+	margin-top: 30px;
+}
+
+#menu a {
+	color: 	#E9967A;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px #111111;
+	/* text-transform: uppercase; => Transforma as em tamanho maíusculo */
+	font-weight: bold;
+}
+
+/* Propriedade de sobreposição 
+(efeito que tranforma o elemento onde o mouse passa na página html) */
+#menu a:hover{
+	background-color: #B22222;
+}
+
+/* 
+.efeito {
+	background-color:rgba(0, 0, 0, 0.5);
+    padding: 80px 0 80px 0;
+} */

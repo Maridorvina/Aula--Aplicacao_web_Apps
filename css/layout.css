@@ -1,0 +1,161 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: darkred;
+	height: 100px;
+	padding: 5px;
+
+}
+
+h1, h2 {
+	color: darkred;
+	margin: 0 50 0 0;
+	padding: 40px 0 0 0;
+	/* text-align: center; */
+	text-shadow: 1px 2px 1px #111111;
+}
+
+p {
+	color: crimson;
+	font-size: 20px;
+	padding: 20px 0 0 0; 
+}
+
+body {
+    background-color: #B0E0E6;
+	min-height: 400px;
+}
+
+#div-principal {
+    clear: both;
+	min-height: 400px;
+	padding: 80px 0 0 0; 
+}
+
+footer {
+	background-color: darkred;
+	color: 	#E9967A;
+	clear: both;
+	font-weight: bold;
+	height: 40px;
+	padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    text-transform: uppercase; /*-- Deixa a letras do menu em tamanho maÃ­usculo*/
+}
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+#logo img {
+	border-radius: 20px;
+	float: left;
+    height: 100px;
+}
+
+#menu {
+    float: right;
+	margin-top: 30px;
+}
+
+#menu a {
+	color: 	#E9967A;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px #111111;
+	/* text-transform: uppercase; => Transforma as em tamanho maÃ­usculo */
+	font-weight: bold;
+}
+
+/* Propriedade de sobreposiÃ§Ã£o 
+(efeito que tranforma o elemento onde o mouse passa na pÃ¡gina html) */
+#menu a:hover{
+	background-color: #B22222;
+}
+
+/* 
+.efeito {
+	background-color:rgba(0, 0, 0, 0.5);
+    padding: 80px 0 80px 0;
+} */
+
+
+.android{
+		float: left;
+		width: 450px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		text-align: justify;
+		background: #ff000038;
+		padding: 16px;
+}
+
+.android img{
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+
+.android h2 {
+	padding-bottom: 10px;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+.android span{
+	text-align: justify;
+	/* float: left; */
+}
+
+
+
+.black-b{
+		float: left;
+		width: 280px;
+		margin-bottom: 20px;
+}
+
+.black-b img{
+	width: 100%;
+}
+
+.black-b h2 {
+	padding-top: 10px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.black-b span{
+	text-align: justify;
+	float: left;
+}
+
+
+.apple{
+		float: left;
+		width: 280px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+}
+
+.apple img{
+	width: 100%;
+}
+
+.apple h2 {
+	padding-top: 10px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.apple span{
+	text-align: justify;
+	float: left;
+}

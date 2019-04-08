@@ -15,7 +15,7 @@ h1, h2 {
 	color: darkred;
 	margin: 0 50 0 0;
 	padding: 40px 0 0 0;
-	/* text-align: center; */
+	text-align: center;
 	text-shadow: 1px 2px 1px #111111;
 }
 
@@ -23,6 +23,7 @@ p {
 	color: crimson;
 	font-size: 20px;
 	padding: 20px 0 0 0; 
+	text-align: center;
 }
 
 body {
